@@ -13,10 +13,10 @@ import 'arguments.dart';
 import 'return-data.dart';
 
 void main() {
-  runApp(DuongApp());
+  runApp(MyApp());
 }
 
-class DuongApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,7 +25,7 @@ class DuongApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
-      home: Action(title: 'Dương\' App Ver 2'),
+      home: Action(title: 'My\' App2'),
     );
   }
 }
@@ -139,8 +139,3 @@ class SecondRoute extends StatelessWidget {
 
 #Kết quả
 // Trong Directory screenshot
-123489756_2879623498983716_2193570905374524313_n.png
-123498460_646938452638436_6343389057335321513_n.png
-123685943_800422897444254_6664677690483240679_n.png
-123708531_3826584004058793_5017574201618816375_n.jpg
-123912013_725382768186349_8624913784233779119_n.png
